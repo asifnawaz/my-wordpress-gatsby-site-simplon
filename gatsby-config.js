@@ -29,7 +29,7 @@ module.exports = {
    perPage: 5, // currently set to 100
        requestConcurrency: 1, // currently set to 15
        previewRequestConcurrency: 1, // currently set to 5
-     }
+     },
         // the only required plugin option for WordPress is the GraphQL url.
         url:
           process.env.WPGRAPHQL_URL || `https://sirfhungama.com/graphql`,
@@ -62,8 +62,8 @@ module.exports = {
       // See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter WordPress Blog`,
-        short_name: `GatsbyJS & WP`,
+        name: `SirfHungama`,
+        short_name: `SirfHungama`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
